@@ -1,0 +1,15 @@
+
+main{
+    display:flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+   
+
+}
+.stackTitle{
+.stackTitle{
+    background-color: aquamarine;
+    width: calc(100% / 3 - 10px);
+  
+    
+}
