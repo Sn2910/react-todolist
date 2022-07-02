@@ -1,15 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* siderbar Menu*/
 
-main{
-    display:flex;
-    justify-content: space-between;
-    gap: 1.5rem;
-   
+/* .sidebar_container{
+    position: fixed;
+    width: 170px;
+    border-left: 1px solid  rgba(0, 0, 0, 0.4); 
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.4); 
+    min-height: 100vh;
+    overflow: auto;
+  
+}
+.icon{
+    width: 30px;
+}
+.sidebar_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+    padding: 30px;
+} */
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar{
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ccc;
+}
+.board_outer{
+    flex: 1;
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px 50px;
+}
+.board_container{
+    min-width: fit-content;
+    display: flex;
+    gap: 30px;
 
 }
-.stackTitle{
-.stackTitle{
-    background-color: aquamarine;
-    width: calc(100% / 3 - 10px);
+
+.stack-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+   
   
-    
+}
+.stackBox{
+width: calc(100% / 4);
+border: 1px solid red;
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+.stackHeading{
+    background: black;
+    color: white;
+    padding: 5px;
+}
+/* .cards{
+    height: auto;
+    max-height: 400px;
+    min-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+} */
+
+button{
+   
 }
