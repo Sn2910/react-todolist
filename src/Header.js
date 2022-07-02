@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from "react";
 import Board from "./Board";
 function Header(){
@@ -9,6 +10,17 @@ function Header(){
          
             
         </div>
+=======
+import SearchBar from "./SearchBar";
+function Header(){
+    return (
+        <div>Things ToDo</div>
+>>>>>>> Stashed changes
     )
+   
 }
 export default Header
+
+
+
+

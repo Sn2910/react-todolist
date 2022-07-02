@@ -4,14 +4,19 @@ import Stack from "./Stack";
 import "./Card.css"
 import './Board.css';
 import  "./Main.css";
+<<<<<<< Updated upstream
 import Board from "./Board";
 
+=======
+import SearchBar from "./SearchBar";
+>>>>>>> Stashed changes
 
 
 function Main(){
     return (
         <div>
             <Header />
+            <SearchBar />
             <Sidebar />
             <main >
             <div className="board_outer">
