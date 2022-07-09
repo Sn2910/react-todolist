@@ -1,16 +1,16 @@
 const SearchBar = () => (
     <form action="/" method="get">
-        <label htmlFor="header-Search">
-            <span className="visually"></span>
+        <label htmlFor="header-search">
+            <span className="visually-hidden">Search ToDO</span>
         </label>
         <input
             type="text"
-            id="header-Search"
+            id="header-search"
             placeholder="Search ToDo"
-            name="s"
+            name="s" 
         />
         <button type="submit">Search</button>
     </form>
 );
 
-export default SearchBar
+export default SearchBar;

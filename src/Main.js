@@ -5,14 +5,10 @@ import "./Card.css"
 import './Board.css';
 import  "./Main.css";
 import Board from "./Board";
-
-
-
 function Main(){
     return (
         <div>
             <Header />
-            <SearchBar />
             <Sidebar />
             <main >
             <div className="board_outer">

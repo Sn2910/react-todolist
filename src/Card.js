@@ -1,5 +1,5 @@
 import React from 'react'
-import {MoreVertical} from "react-feather"
+import {AlertCircle, MoreVertical} from "react-feather"
 
 function Card(){
     return (
@@ -7,6 +7,7 @@ function Card(){
             <div className="card_header">
                 <div className="card_body">
                 <MoreVertical />
+                <AlertCircle /> 
                 </div>
             </div>
             

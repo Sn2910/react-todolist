@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+Sneha Shaw
+9:50 AM
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar{
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ccc;
+}
+.board_outer{
+    flex: 1;
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px 50px;
+}
+.board_container{
+    min-width: fit-content;
+    display: flex;
+    gap: 30px;
+
+}
+
+
